@@ -1,0 +1,33 @@
+html {
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+div {
+  /* Groups elements into chunks that are stacked blocks */
+  display: block;
+}
+
+.container {
+  /* this is the generic site container that centers things in viewport */
+  max-width: 960px;
+  margin-left: 0 auto;
+}
+
+.company {
+  /* this is the logo bar at the very top */
+  background-color: black;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-left: .5rem;
+  padding-right: 1rem;
+}
+
+.company span {
+  font-size: 1rem;
+  padding-top: .66rem;
+  padding-bottom: .66rem;
+  color: white;
+}
