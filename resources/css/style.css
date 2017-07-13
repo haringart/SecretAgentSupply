@@ -14,9 +14,17 @@ div {
   margin-left: 0 auto;
 }
 
+/* TOP BLACK BAR ("COMPANY") */
 .company {
   /* this is the logo bar at the very top */
   background-color: black;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding-top: .66rem;
+  padding-bottom: .66rem;
 }
 
 .company img {
@@ -27,7 +35,12 @@ div {
 
 .company span {
   font-size: 1rem;
-  padding-top: .66rem;
-  padding-bottom: .66rem;
   color: white;
+}
+
+/* MAIN BANNER (HERO) */
+.main-banner img {
+  background-image: url(resources/images/moto.jpeg);
+  background-size: cover;
+  height: 20rem;
 }
