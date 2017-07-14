@@ -13,7 +13,7 @@ div {
   display: flex;
   max-width: 960px;
   margin: 0 auto;
-  border: 1px solid aqua;
+  /*  border: 1px solid aqua;  */
 }
 
 /* TOP BLACK BAR ("COMPANY") */
@@ -134,9 +134,5 @@ footer {
   height: 5rem;
   color: white;
   margin-top: 4rem;
-}
-
-footer .container {
-  display: flex;
-  align-items: center;
+  padding-top: 4rem;
 }
