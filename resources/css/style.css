@@ -90,15 +90,17 @@ nav ul {
   border: 4px solid black;
   margin: 3rem 0;
 }
-
 .product img {
   max-width: 8rem;
 }
 
 .product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 9rem;
   padding: 2rem;
-  max-width: 100%;
+  border: 4px solid black;
 }
 
 .description {
@@ -136,6 +138,5 @@ footer {
 
 footer .container {
   display: flex;
-
   align-items: center;
 }
