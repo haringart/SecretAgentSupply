@@ -92,6 +92,10 @@ nav ul {
 }
 
 .product img {
+  max-width: 8rem;
+}
+
+.product-image {
   height: 9rem;
   padding: 2rem;
   max-width: 100%;
